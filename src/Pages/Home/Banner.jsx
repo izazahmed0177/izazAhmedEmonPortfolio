@@ -12,9 +12,9 @@ const Banner = () => {
                     </div>
                 </div>
                 <div>
-                    <h4 className='text-gray-500 dark:text-gray-300'>MERN Stack Developer</h4>
+                    <h4 className='text-black'>MERN Stack Developer</h4>
                     <h1 className="text-5xl font-bold my-4 dark:text-white">Izaz Ahmed Emon</h1>
-                    <h2 className='max-w-md text-gray-500 dark:text-gray-300'>Hello! I{"'"}m Izaz Ahmed Emon, a skilled MERN Stack Developer. I specialize in creating robust, scalable, and maintainable full-stack websites with exceptional user interfaces. My passion lies in delivering beautifully designed, high-performance web applications that provide a seamless and engaging user experience. Let{"'"}s bring your vision to life!</h2>
+                    <h2 className='max-w-md text-black'>Hello! I{"'"}m Izaz Ahmed Emon, a skilled MERN Stack Developer. I specialize in creating robust, scalable, and maintainable full-stack websites with exceptional user interfaces. My passion lies in delivering beautifully designed, high-performance web applications that provide a seamless and engaging user experience. Let{"'"}s bring your vision to life!</h2>
                     <div className='flex gap-4 mt-4'>
                         <a className='btn rounded-full btn-outline border-blue-500 border-2 dark:text-white' href={resume} download="izazAhmedEmon.pdf">
                             Download Resume

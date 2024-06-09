@@ -11,6 +11,7 @@ import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
 import AboutMe from './Pages/AboutMe/AboutMe';
 
+
 const router = createBrowserRouter([
   {
     path: "/",

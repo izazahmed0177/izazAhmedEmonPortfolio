@@ -3,7 +3,7 @@ import profilePic from './../../assets/IMG-edit.png'
 
 const AboutMe = () => {
     return (
-        <div className="card lg:card-side bg-gray-100 dark:bg-gray-100 shadow-xl rounded-none">
+        <div className="card lg:card-side bg-gray-100 dark:bg-gray-100 shadow-xl rounded-none   bg-gradient-to-r from-cyan-500 to-blue-500">
             <figure className='max-w-lg'>
                 <img src={profilePic} alt="Avatar" />
             </figure>

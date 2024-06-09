@@ -6,7 +6,7 @@ const Footer = () => {
     const url = "https://wa.me/+8801777657846"
     const mailtoLink = 'mailto:izazahmed0177@gmail.com'
     return (
-        <footer className="footer footer-center p-10 bg-gray-900 dark:bg-gray-700 text-white rounded">
+        <footer className="footer footer-center p-10 bg-gray-900 dark:bg-gray-700 text-white rounded  bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
             <div className="grid grid-flow-col gap-4">
                 <Link to='/about-me'>About</Link>
                 <Link to='/contact'>Contact</Link>

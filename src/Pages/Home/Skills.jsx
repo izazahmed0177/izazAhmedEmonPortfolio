@@ -18,7 +18,7 @@ const Skills = () => {
         Aos.init()
     }, [])
     return (
-        <div className="my-12" >
+        <div className="" >
             <div className="dark:text-white">
                 <h3 className="text-2xl font-bold ms-4 text-center">Skills</h3>
                 <div className="divider max-w-sm mx-auto"></div>
