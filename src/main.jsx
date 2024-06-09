@@ -10,6 +10,8 @@ import Home from './Pages/Home/Home';
 import Projects from './Pages/Projects/Projects';
 import Contact from './Pages/Contact/Contact';
 import AboutMe from './Pages/AboutMe/AboutMe';
+import Experants from './Pages/AboutMe/Experants.jsx';
+import Education from './Pages/Edqucation/Education.jsx';
 
 
 const router = createBrowserRouter([
@@ -32,6 +34,14 @@ const router = createBrowserRouter([
       {
         path: 'about-me',
         element: <AboutMe></AboutMe>
+      },
+      {
+        path: 'experience',
+        element: <Experants></Experants>
+      },
+      {
+        path: 'education',
+        element: <Education></Education>
       }
     ]
   },

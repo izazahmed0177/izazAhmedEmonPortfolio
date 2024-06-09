@@ -9,7 +9,7 @@ const Exploring = () => {
         Aos.init()
     }, [])
     return (
-        <div className="my-20">
+        <div className="my-20 bg-gradient-to-r from-cyan-500 to-blue-500">
             <div className="dark:text-white">
                 <h3 className="text-2xl font-bold ms-4 text-center">Currently Exploring</h3>
                 <div className="divider max-w-sm mx-auto"></div>

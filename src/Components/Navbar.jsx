@@ -6,6 +6,8 @@ const Navbar = () => {
     const navElement = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/projects'>Projects</NavLink></li>
+        {/* <li><NavLink to='/experience'>Experience</NavLink></li> */}
+        <li><NavLink to='/education'>Education</NavLink></li>
         <li><NavLink to='/contact'>Contact Me</NavLink></li>
         <li><NavLink to='/about-me'>About Me</NavLink></li>
 

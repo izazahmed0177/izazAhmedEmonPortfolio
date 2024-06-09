@@ -1,3 +1,4 @@
+// import Experants from "../AboutMe/Experants";
 import Banner from "./Banner";
 // import Exploring from "./Exploring";
 import Skills from "./Skills";
@@ -9,6 +10,11 @@ const Home = () => {
             <Banner></Banner>
             <Skills></Skills>
             {/* <Exploring></Exploring> */}
+            <div className=" flex items-center justify-center">
+
+            {/* <Experants></Experants> */}
+            </div>
+
         </div>
     );
 };
