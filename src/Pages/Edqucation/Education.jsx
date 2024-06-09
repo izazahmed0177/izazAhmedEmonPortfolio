@@ -3,7 +3,7 @@
 import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { motion } from 'framer-motion';
-import CountdownTimer from "../AboutMe/CountdownTimer";
+// import CountdownTimer from "../AboutMe/CountdownTimer";
 
 export default function Education() {
     const experienceRef = useRef();
@@ -176,7 +176,7 @@ export default function Education() {
 
 
             <div className="text-gray-800 py-7 text-sm font-semibold">
-              <CountdownTimer />
+              {/* <CountdownTimer /> */}
             </div>
           </div>
         </div>
