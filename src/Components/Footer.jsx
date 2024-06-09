@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { FaGithub, FaFacebook, FaPhoneVolume, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaPhoneVolume, FaWhatsapp, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
@@ -18,6 +18,7 @@ const Footer = () => {
                     <a className="text-2xl" onClick={() => { window.open(url, '_blank') }}><FaWhatsapp></FaWhatsapp></a>
                     <a className="text-2xl" href="https://github.com/izazahmed0177" target="_blank" rel="noopener noreferrer"><FaGithub></FaGithub></a>
                     <a className="text-2xl" href="https://www.facebook.com/izazahmed.emon/" target="_blank" rel="noopener noreferrer"><FaFacebook></FaFacebook></a>
+                    <a className="text-2xl" href="https://www.linkedin.com/in/izaz-ahmed-emon/" target="_blank" rel="noopener noreferrer"><FaLinkedin></FaLinkedin></a>
                     <a className="text-2xl" onClick={() => { window.location.href = mailtoLink }}><HiOutlineMail></HiOutlineMail></a>
                 </div>
             </div>
