@@ -1,5 +1,5 @@
 import Banner from "./Banner";
-import Exploring from "./Exploring";
+// import Exploring from "./Exploring";
 import Skills from "./Skills";
 
 
@@ -8,7 +8,7 @@ const Home = () => {
         <div className="min-h-screen px-4">
             <Banner></Banner>
             <Skills></Skills>
-            <Exploring></Exploring>
+            {/* <Exploring></Exploring> */}
         </div>
     );
 };

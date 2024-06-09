@@ -1,4 +1,5 @@
 import First from "./SingleProject/First";
+import Forth from "./SingleProject/Forth";
 import Second from "./SingleProject/Second";
 import Third from "./SingleProject/Third";
 
@@ -11,6 +12,7 @@ const Projects = () => {
                 <First></First>
                 <Second></Second>
                 <Third></Third>
+                <Forth></Forth>
             </div>
         </div>
     );

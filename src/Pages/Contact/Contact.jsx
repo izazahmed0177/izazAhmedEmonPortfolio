@@ -24,15 +24,15 @@ const Contact = () => {
                 <div className="text-start lg:text-left">
                     <div className='flex items-center gap-2 my-8'>
                         <FaPhoneVolume></FaPhoneVolume>
-                        <p>+8801705610615</p>
+                        <p>+880177657846</p>
                     </div>
                     <div className='flex items-center gap-2 my-8' >
                         <FaWhatsapp className='text-2xl'></FaWhatsapp>
-                        <p>+8801705610615</p>
+                        <p>+8801777657846</p>
                     </div>
                     <div className='flex items-center gap-2 my-8'>
                         <HiOutlineMail className='text-2xl'></HiOutlineMail>
-                        <p>nazmul.hussain.utchash@gmail.com</p>
+                        <p>izazahmed0177@gmail.com</p>
                     </div>
                 </div>
                 <div className="card flex-shrink-0 w-full max-w-lg shadow-2xl bg-base-100">
